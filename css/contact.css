@@ -20,6 +20,12 @@ $phone:480px;
         margin: auto;
      }
 
+.card{
+         width: 100%;
+         text-align:center;
+         margin: auto;
+     }
+
 nav {
     display: inline-block;
     text-align: center;
@@ -31,12 +37,13 @@ nav {
 }
 
 .portrait{
-    max-width: 300px;
+    max-width: 100%;
+    padding: 10px;
 }
 
 .container{
     width:90%;
-    color: darkgray;
+    color: black;
     background: inherit;
     display: block;
     margin-top: 20px;
@@ -50,6 +57,10 @@ h6 {
     text-align: center;
     color: green;
     background-color: white;
+}
+
+h2{
+    margin: 10px;
 }
 
 h3 {
@@ -69,6 +80,7 @@ section{
     margin:auto;
     width:100%;
     text-align: center;
+    align-content: center;
     color: green;
     background-color: rgba(241, 249, 241, 0.6);
 }
@@ -111,18 +123,16 @@ header {
     padding: 10px;
 }
 
-#team{
-    width: 100%
-    margin-top: 20px;
-    color: black;
-    background-color: white;
-    padding: 10px;
-}
-
 section::after {
     content: "";
     display: table;
     clear: both;
+}
+
+#petgroup{
+    border-radius: 10%;
+    max-width: 100%;
+    height: auto;
 }
 
 a:link {
@@ -167,4 +177,32 @@ a:active {
     text-decoration: none;
     display: inline-block;
     border-radius: 10px;
+}
+
+a.linkz{
+    text-decoration: none;
+    color: black;
+    background: none;
+    display: block;
+    border: none;
+    padding: 0;
+    margin: auto;
+}
+
+#teamcard{
+    max-width: 100%;
+    color: black;
+    position: relative;
+    float: left;
+}
+
+@media screen and (min-width:768px){
+    #teamcard {
+        max-width: 25%;
+    }
+}
+
+#teamcard:hover{
+    box-shadow: 0 12px 48px 0 darkolivegreen;
+    transition: 0.3s;
 }

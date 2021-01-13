@@ -35,10 +35,10 @@
         </header>
 
         <nav>
-            <a href="#">Home</a>
-            <a href="#">About</a>
-            <a href="#">Our services</a>
-            <a href="#">Contact</a>
+            <a href="#" class="navbutton">Home</a>
+            <a href="#" class="navbutton">About</a>
+            <a href="#" class="navbutton">Our services</a>
+            <a href="#" class="navbutton">Contact</a>
 
         </nav>
 
@@ -57,38 +57,25 @@
 
                         <div class="row">
                             <div class="col-md-6 mb-4">
-                                <form>
-                                    <div class="md-form">
-                                        <input type="text" id="contact-name" class="form-control">
-                                        <label for="contact-name" class="">TYPE YOUR NAME</label>
-                                    </div>
-
-                                    <div class="md-form">
-                                        <input type="text" id="contact-email" class="form-control">
-                                        <label for="contact-email" class="">TYPE YOUR E-MAIL</label>
-                                    </div>
-
-                                    <div class="md-form">
-                                        <input type="text" id="contact-Subject" class="form-control">
-                                        <label for="contact-Subject" class="">TYPE A SUBJECT</label>
-                                    </div>
-
-                                </form>
-                            </div>
-                            <div class="col-md-6 mb-4">
-                                <div class="md-form primary-textarea">
-                                    <textarea id="contact-message" class="md-textarea form-control mb-0" rows="5" style="padding-bottom: 1.2rem;"></textarea>
-                                    <label for="contact-message">TYPE A MESSAGE</label>
-                                </div>
-                            </div>
-                            <div class="col-md-12">
-                                <div class="text-center">
-                                    <a class="btn btn-mdb-color btn-block">SEND MESSAGE</a>
-                                </div>
-                            </div>
-                        </div>
+                                <form action="mailto:mark.hoogkamer@gmail.com" method="post">
+                            Name:<br>
+                            <input type="text" name="name"><br>
+                            E-mail:<br>
+                            <input type="text" name="mail"><br>
+                            Subject:<br>
+                            <input type="text" name="subject"><br></div>
+                                    <div class="col-md-6 mb-4">
+                            Comment:<br>
+                            <textarea name="comment" rows="5" cols="50"></textarea><br><br>
+                                        <div class="col-md-12">
+                            <input type="submit" value="Send">
+                            <input type="reset" value="Reset">
+                        </div></form></div>
                     </div>
                 </div>
+
+
+
             </section>
 
         </div>
@@ -99,11 +86,39 @@
             <p>No problem at all! But to not interfere with the schedules of both the animals and our staff, please call in advance.</p>
         </section>
 
-        <blockquote id="team">
-            <h2>THESE ARE THE HEROES OF OUR TEAM:</h2>
-            <img class="portrait" src="img/viktor.png" alt="Viktor"><img class="portrait" src="img/micha.png" alt="Micha">
-        </blockquote>
-<div class="container">
+            <section>
+            <img id="petgroup" src="img/petgroup.jpg" alt="A selection of our pets"></section>
+<section>
+            <h2 class="section-heading h2 pt-4 mb-5">OUR TEAM OF PET LOVING SUPERSTARS:</h2></section>
+            <section>
+            <a class="linkz" href="viktor.html" alt="Viktor" target="popup" onclick="window.open('http://www.nu.nl/','popup','width=600,height=600'); return false;"><div class="card" id="teamcard">
+                        <img class="portrait" src="img/viktor.png" alt="Viktor">
+                        <div class="container">
+                            <h4><b>Viktor</b></h4>
+                            <p>CEO Therapets</p>
+              </div></a></div>
+            <a class="linkz" href="viktor.html" alt="Viktor" target="popup" onclick="window.open('http://www.nu.nl/','popup','width=600,height=600'); return false;"><div class="card" id="teamcard">
+                    <img class="portrait" src="img/micha.png" alt="Micha">
+                    <div class="container">
+                        <h4><b>Micha</b></h4>
+                        <p>Executive Pet Nurse</p>
+                    </div></a>
+        </div>
+        <a class="linkz" href="viktor.html" alt="Viktor" target="popup" onclick="window.open('http://www.nu.nl/','popup','width=600,height=600'); return false;"><div class="card" id="teamcard">
+                    <img class="portrait" src="img/mark.png" alt="Mark">
+                    <div class="container">
+                        <h4><b>Mark</b></h4>
+                        <p>Poop Scooper M.D.</p>
+                    </div></a>
+                </div>
+        <a class="linkz" href="viktor.html" alt="Viktor" target="popup" onclick="window.open('http://www.nu.nl/','popup','width=600,height=600'); return false;"><div class="card" id="teamcard">
+                    <img class="portrait" src="img/nattaya.png" alt="Nattaya">
+                    <div class="container">
+                        <h4><b>Nattaya</b></h4>
+                        <p>Takes your money</p>
+                    </div></a>
+            </section>
+        <br><br><br>
 
         <footer class="footer">
             <h4>Copyright Mark Hoogkamer &#169 2021. All right reserved.</h4>
