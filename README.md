@@ -28,3 +28,4 @@ Github is used by BeCode as a tool for educational purposes.
 ### SERVICE page
 ![Screenshot SERVICE page](img/SERVICE.png)
 
+
