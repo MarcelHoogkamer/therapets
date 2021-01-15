@@ -37,40 +37,34 @@
 <body>
 <header class="head">
     <div class="header-logo">
-        <img class="pets" src="img/therapetslogo2.png" alt="Therapets logo">
-    </div>
-    <div class="header-container">
-        <div class="container">
-            <div class="header-section">
-                <div class="header-menu">
-                    <nav>
-                        <ul class="nav">
-                            <li class="nav-item">
-                                <a href="https://marcelhoogkamer.github.io/therapets/index.html" data-navigateto="Home" class="nav-link">HOME</a>
-                            </li>
-                            <li class="nav-item">
-                                <a href="https://marcelhoogkamer.github.io/therapets/about.html" data-navigateto="About Us" class="nav-link">ABOUT US</a>
-                            </li>
-                            <li class="nav-item">
-                                <a href="https://marcelhoogkamer.github.io/therapets/service.html" data-navigateto="Services" class="nav-link">SERVICES</a>
-                            </li>
-                            <li class="nav-item">
-                                <a href="https://marcelhoogkamer.github.io/therapets/faq.html" data-navigateto="FAQ" class="nav-link">FAQ</a>
-                            </li>
-                            <li class="nav-item">
-                                <a href="https://marcelhoogkamer.github.io/therapets/contact.html" data-navigateto="Contact" class="nav-link">CONTACT</a>
-                            </li>
-                        </ul>
-                        <div class="mobile-menu">
-                            <div class="menu-btn">
-                                <div class="menu-btn__burger"></div>
-                            </div>
-                        </div>
-                    </nav>
-                </div>
-            </div>
-        </div>
-    </div>
+        <img class="pets" src="img/therapetslogo2.png" alt="Therapets logo" title="Therapets"></div>
+    <a href="#main-menu"
+       id="main-menu-toggle"
+       class="menu-toggle"
+       aria-label="Open main menu">
+        <span class="sr-only">Open main menu</span>
+        <span class="fa fa-bars" aria-hidden="true"></span>
+    </a>
+    <nav id="main-menu" class="main-menu" aria-label="Main menu">
+        <a href="#main-menu-toggle"
+           id="main-menu-close"
+           class="menu-close"
+           aria-label="Close main menu">
+            <span class="sr-only">Close main menu</span>
+            <span class="fa fa-close" aria-hidden="true"></span>
+        </a>
+        <ul>
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="about.html">ABOUT US</a></li>
+            <li><a href="service.html">SERVICES</a></li>
+            <li><a href="faq.html">F.A.Q.</a></li>
+            <li><a href="contact.html">CONTACT</a></li>
+        </ul>
+    </nav>
+    <a href="#main-menu-toggle"
+       class="backdrop"
+       tabindex="-1"
+       aria-hidden="true" hidden></a>
 </header>
 
 <!--THIS IS THE CONTAINER -->
@@ -93,62 +87,63 @@
                         <dd>You’ll change a life. You’ll get a healthy, vet-checked pet. You’ll save money. <br>
                             You won’t be supporting puppy mills or pet stores. The pet will be behavior assessed. Depending on their background,<br/>
                             the pet may already be trained and know basic commands. You’ll receive ongoing assistance as needed from the shelter. <br/>
-                            <b class="yy">You'll feel better</b>.</dd></div>
+                            <b class="yy">You'll feel better</b>.</dd></dl></div>
+
                 <div class="col-md-6 mb-4">
                     <h2><b class="yy"> What if?</b> I want to do home therapy but can't have a pet at home?</h2>
                     <p>Not everyone has the opportunity to have a pet at home, even though they would like to undergo pet therapy. For these
                         cases, we offer you the option of a space where you can spend time during the therapy. </p>
-                    <h2 class="yy"> Wanna volunteer? <a class="extra" href="contact.html">Contact us!</a></h2>
-                    <h2 class="yy"> Read more <a class="extra" href="about.html">About us</a></h2><br<br>
+                    <h2 class="yy"> Want to volunteer? <a class="extra" href="contact.html">Contact us!</a></h2>
+                    <h2 class="yy"> Read more <a class="extra" href="about.html">About us</a></h2><br><br>
                 <p id="link-price">see our pricelist <a href="#pricelist">here</a></p></div>
                 <hr>
         </div></section>
     <section>
-            <h2 id="let">Let's meet our star</h2>
+            <h2 id="let">Let's meet our stars:</h2>
         <div class="containerc">
             <div class="mySlides">
                 <div class="numbertext">1 / 9</div>
-                <img src="img/cat-baron.jpg" style="width:50%">
+                <img src="img/cat-baron.jpg" alt="Baron" style="width:50%">
             </div>
 
             <div class="mySlides">
                 <div class="numbertext">2 / 9</div>
-                <img src="img/cat-care.jpg" style="width:50%">
+                <img src="img/cat-care.jpg" alt="Care" style="width:50%">
             </div>
 
             <div class="mySlides">
                 <div class="numbertext">3 / 9</div>
-                <img src="img/cat-kyra.jpg" style="width:50%">
+                <img src="img/cat-kyra.jpg" alt="Kyra" style="width:50%">
             </div>
 
             <div class="mySlides">
                 <div class="numbertext">4 / 9</div>
-                <img src="img/dog-buggy.jpg" style="width:50%">
+                <img src="img/dog-buggy.jpg" alt="Buggy" style="width:50%">
             </div>
 
             <div class="mySlides">
                 <div class="numbertext">5 / 9</div>
-                <img src="img/dog-caro.jpg" style="width:50%">
+                <img src="img/dog-caro.jpg" alt="Caro" style="width:50%">
             </div>
 
             <div class="mySlides">
                 <div class="numbertext">6 / 9</div>
-                <img src="img/dog-yumi.jpg" style="width:50%">
+                <img src="img/dog-yumi.jpg" alt="Yumi" style="width:50%">
             </div>
 
             <div class="mySlides">
                 <div class="numbertext">7 / 9</div>
-                <img src="img/hamster-cubic.jpg" style="width:50%">
+                <img src="img/hamster-cubic.jpg" alt="Cubic" style="width:50%">
             </div>
 
             <div class="mySlides">
                 <div class="numbertext">8 / 9</div>
-                <img src="img/horse-mamia.JPG" style="width:50%">
+                <img src="img/horse-mamia.JPG" alt="Mamia" style="width:50%">
             </div>
 
             <div class="mySlides">
                 <div class="numbertext">9 / 9</div>
-                <img src="img/love-birds.jpg" style="width:50%">
+                <img src="img/love-birds.jpg" alt="Birds" style="width:50%">
             </div>
 
             <a class="prev" onclick="plusSlides(-1)">❮</a>
@@ -160,10 +155,10 @@
 
             <div class="rowc">
                 <div class="columnc">
-                    <img class="demo cursor" src="img/cat-baron.jpg" style="width:100%" onclick="currentSlide(1)" alt="Baron is  most popular cat in our shelter, everyone love him">
+                    <img class="demo cursor" src="img/cat-baron.jpg" style="width:100%" onclick="currentSlide(1)" alt="Baron is the most popular cat in our shelter, everyone love him">
                 </div>
                 <div class="columnc">
-                    <img class="demo cursor" src="img/cat-care.jpg" style="width:100%" onclick="currentSlide(2)" alt="Caro is good bodyguard. He very strong and active">
+                    <img class="demo cursor" src="img/cat-care.jpg" style="width:100%" onclick="currentSlide(2)" alt="Caro is a good bodyguard. He is very strong and active">
                 </div>
                 <div class="columnc">
                     <img class="demo cursor" src="img/cat-kyra.jpg" style="width:100%" onclick="currentSlide(3)" alt="Kyra love to get attention from her owner">
@@ -172,7 +167,7 @@
                     <img class="demo cursor" src="img/dog-buggy.jpg" style="width:100%" onclick="currentSlide(4)" alt="Buggy is gonna be your best friend ever">
                 </div>
                 <div class="columnc">
-                    <img class="demo cursor" src="img/dog-caro.jpg" style="width:100%" onclick="currentSlide(5)" alt="Otis is very charming and love to be in front of camerae">
+                    <img class="demo cursor" src="img/dog-caro.jpg" style="width:100%" onclick="currentSlide(5)" alt="Otis is very charming and love to be in front of camera">
                 </div>
                 <div class="columnc">
                     <img class="demo cursor" src="img/dog-yumi.jpg" style="width:100%" onclick="currentSlide(6)" alt="Yumi is fun, Love to play around with kids">
@@ -181,7 +176,7 @@
                     <img class="demo cursor" src="img/hamster-cubic.jpg" style="width:100%" onclick="currentSlide(7)" alt="We are sure.. Our little hamster Cubic is gonna be great entertainer in your house">
                 </div>
                 <div class="columnc">
-                    <img class="demo cursor" src="img/horse-mamia.JPG" style="width:100%" onclick="currentSlide(8)" alt="Mamia have a good shape, active and love to be with people">
+                    <img class="demo cursor" src="img/horse-mamia.JPG" style="width:100%" onclick="currentSlide(8)" alt="Mamia is in good shape, active and love to be with people">
                 </div>
                 <div class="columnc">
                     <img class="demo cursor" src="img/love-birds.jpg" style="width:100%" onclick="currentSlide(9)" alt="Fulfill the love in your house with our love birds">
@@ -223,7 +218,7 @@
             <div class="row">
                 <div class="col-md-12">
                     <section>
-                        <a name="pricelist"></a>
+                        <a id="pricelist"></a>
                         <h2 class="tt"> Why do we have a price list?</h2>
                         <p> As we operate as a non-profit organization, the purpose of our price list is purely to obtain funds for the care of
                             your chosen animal. Therefore, it is a form of donation.</p>

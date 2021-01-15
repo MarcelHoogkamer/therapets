@@ -38,40 +38,34 @@
     <body>
     <header class="head">
         <div class="header-logo">
-            <img class="pets" src="img/therapetslogo2.png" alt="Therapets logo">
-        </div>
-        <div class="header-container">
-            <div class="container">
-                <div class="header-section">
-                    <div class="header-menu">
-                        <nav>
-                            <ul class="nav">
-                                <li class="nav-item">
-                                    <a href="https://marcelhoogkamer.github.io/therapets/index.html" data-navigateto="Home" class="nav-link">HOME</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a href="https://marcelhoogkamer.github.io/therapets/about.html" data-navigateto="About Us" class="nav-link">ABOUT US</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a href="https://marcelhoogkamer.github.io/therapets/service.html" data-navigateto="Services" class="nav-link">SERVICES</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a href="https://marcelhoogkamer.github.io/therapets/faq.html" data-navigateto="FAQ" class="nav-link">FAQ</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a href="https://marcelhoogkamer.github.io/therapets/contact.html" data-navigateto="Contact" class="nav-link">CONTACT</a>
-                                </li>
-                            </ul>
-                            <div class="mobile-menu">
-                                <div class="menu-btn">
-                                    <div class="menu-btn__burger"></div>
-                                </div>
-                            </div>
-                        </nav>
-                    </div>
-                </div>
-            </div>
-        </div>
+            <img class="pets" src="img/therapetslogo2.png" alt="Therapets logo" title="Therapets"></div>
+        <a href="#main-menu"
+           id="main-menu-toggle"
+           class="menu-toggle"
+           aria-label="Open main menu">
+            <span class="sr-only">Open main menu</span>
+            <span class="fa fa-bars" aria-hidden="true"></span>
+        </a>
+        <nav id="main-menu" class="main-menu" aria-label="Main menu">
+            <a href="#main-menu-toggle"
+               id="main-menu-close"
+               class="menu-close"
+               aria-label="Close main menu">
+                <span class="sr-only">Close main menu</span>
+                <span class="fa fa-close" aria-hidden="true"></span>
+            </a>
+            <ul>
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="about.html">ABOUT US</a></li>
+                <li><a href="service.html">SERVICES</a></li>
+                <li><a href="faq.html">F.A.Q.</a></li>
+                <li><a href="contact.html">CONTACT</a></li>
+            </ul>
+        </nav>
+        <a href="#main-menu-toggle"
+           class="backdrop"
+           tabindex="-1"
+           aria-hidden="true" hidden></a>
     </header>
 
     <!--THIS IS THE CONTAINER -->
@@ -108,12 +102,12 @@
                                     <input type="text" name="subject"><br></div>
                             <div class="col-md-6 mb-4">
                                 Comment:<br>
-                                <textarea name="comment" rows="5" cols="50"></textarea><br><br>
+                                <textarea name="comment" rows="5" cols="30"></textarea><br><br>
                                 <div class="col-md-12">
                                     <input type="submit" value="Send">
                                     <input type="reset" value="Reset">
                                 </div></form>
-            </section>
+            </div></section>
             <section id="call">
             <h2>Would you like to come see our animals?</h2>
             <p>No problem at all! But to not interfere with the schedules of both the animals and our staff, <span>please call in advance.</span></p>
@@ -124,27 +118,26 @@
             <section id="teamtitle">
             <h2>OUR TEAM OF PET LOVING SUPERSTARS:</h2></section>
             <section>
-            <a class="linkz" href="https://www.becode.org/" alt="Viktor" target="popup" onclick="window.open('https://www.becode.org/','popup','width=600,height=600'); return false;"><div class="card" id="teamcard">
+            <a class="linkz" href="https://www.becode.org/" target="popup" onclick="window.open('https://www.becode.org/','popup','width=600,height=600'); return false;"><div class="card" id="teamcard">
                         <img class="portrait" src="img/viktor.png" alt="Viktor">
                         <div class="container">
                             <h3><b>Viktor</b></h3>
                             <p>CEO Therapets</p>
               </div></a></div>
-            <a class="linkz" href="https://www.becode.org/" alt="Viktor" target="popup" onclick="window.open('https://www.becode.org/','popup','width=600,height=600'); return false;"><div class="card" id="teamcard">
+            <a class="linkz" href="https://www.becode.org/" target="popup" onclick="window.open('https://www.becode.org/','popup','width=600,height=600'); return false;"><div class="card" id="teamcard">
                     <img class="portrait" src="img/micha.png" alt="Micha">
                     <div class="container">
                         <h3><b>Micha</b></h3>
                         <p>Executive Pet Nurse</p>
                     </div></a>
         </div>
-        <a class="linkz" href="https://www.becode.org/" alt="Viktor" target="popup" onclick="window.open('https://www.becode.org/','popup','width=600,height=600'); return false;"><div class="card" id="teamcard">
+        <a class="linkz" href="https://www.becode.org/" target="popup" onclick="window.open('https://www.becode.org/','popup','width=600,height=600'); return false;"><div class="card" id="teamcard">
                     <img class="portrait" src="img/mark.png" alt="Mark">
                     <div class="container">
                         <h3><b>Mark</b></h3>
-                        <p>Poop Scooper M.D.</p>
-                    </div></a>
+                        <p>Poop Scooper M.D.</p></div></a>
                 </div>
-        <a class="linkz" href="https://www.becode.org/" alt="Viktor" target="popup" onclick="window.open('https://www.becode.org/','popup','width=600,height=600'); return false;"><div class="card" id="teamcard">
+        <a class="linkz" href="https://www.becode.org/" target="popup" onclick="window.open('https://www.becode.org/','popup','width=600,height=600'); return false;"><div class="card" id="teamcard">
                     <img class="portrait" src="img/nattaya.png" alt="Nattaya">
                     <div class="container">
                         <h3><b>Nattaya</b></h3>

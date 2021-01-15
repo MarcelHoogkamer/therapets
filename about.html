@@ -35,40 +35,34 @@
 <body>
 <header class="head">
     <div class="header-logo">
-        <img class="pets" src="img/therapetslogo2.png" alt="Therapets logo">
-    </div>
-    <div class="header-container">
-        <div class="container">
-            <div class="header-section">
-                <div class="header-menu">
-                    <nav>
-                        <ul class="nav">
-                            <li class="nav-item">
-                                <a href="https://marcelhoogkamer.github.io/therapets/index.html" data-navigateto="Home" class="nav-link">HOME</a>
-                            </li>
-                            <li class="nav-item">
-                                <a href="https://marcelhoogkamer.github.io/therapets/about.html" data-navigateto="About Us" class="nav-link">ABOUT US</a>
-                            </li>
-                            <li class="nav-item">
-                                <a href="https://marcelhoogkamer.github.io/therapets/service.html" data-navigateto="Services" class="nav-link">SERVICES</a>
-                            </li>
-                            <li class="nav-item">
-                                <a href="https://marcelhoogkamer.github.io/therapets/faq.html" data-navigateto="FAQ" class="nav-link">FAQ</a>
-                            </li>
-                            <li class="nav-item">
-                                <a href="https://marcelhoogkamer.github.io/therapets/contact.html" data-navigateto="Contact" class="nav-link">CONTACT</a>
-                            </li>
-                        </ul>
-                        <div class="mobile-menu">
-                            <div class="menu-btn">
-                                <div class="menu-btn__burger"></div>
-                            </div>
-                        </div>
-                    </nav>
-                </div>
-            </div>
-        </div>
-    </div>
+        <img class="pets" src="img/therapetslogo2.png" alt="Therapets logo" title="Therapets"></div>
+    <a href="#main-menu"
+       id="main-menu-toggle"
+       class="menu-toggle"
+       aria-label="Open main menu">
+        <span class="sr-only">Open main menu</span>
+        <span class="fa fa-bars" aria-hidden="true"></span>
+    </a>
+    <nav id="main-menu" class="main-menu" aria-label="Main menu">
+        <a href="#main-menu-toggle"
+           id="main-menu-close"
+           class="menu-close"
+           aria-label="Close main menu">
+            <span class="sr-only">Close main menu</span>
+            <span class="fa fa-close" aria-hidden="true"></span>
+        </a>
+        <ul>
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="about.html">ABOUT US</a></li>
+            <li><a href="service.html">SERVICES</a></li>
+            <li><a href="faq.html">F.A.Q.</a></li>
+            <li><a href="contact.html">CONTACT</a></li>
+        </ul>
+    </nav>
+    <a href="#main-menu-toggle"
+       class="backdrop"
+       tabindex="-1"
+       aria-hidden="true" hidden></a>
 </header>
 <div class="container1">
     <img src="img/Homepage.jpeg" alt="Animals Background" class="homeImg">
@@ -163,5 +157,5 @@
     <script src="js/main.js"></script>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
-</body>
+</div></body>
 </html>
