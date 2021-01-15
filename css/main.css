@@ -591,143 +591,107 @@ dt {
 }
 
 /*CAROUSSEL */
-#slide {
-    background-color: rgba(85, 160, 43, 0.7) ;
-    padding: 50px;
-    max-width: 100%;
-    margin: auto;
+img {
+    vertical-align: middle;
 }
-.carousel-wrapper{
-    height: 750px;
+
+/* Position the image container (needed to position the left and right arrows) */
+.containerc {
     position: relative;
-    width: 100%;
-    margin: 0 auto;
-    padding: 30px;
-}
-.carousel-item{
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    padding: 25px 50px;
-    opacity: 0;
-    transition: all 0.5s ease-in-out;
-}
-.arrow{
-    border: solid black;
-    border-width: 0 3px 3px 0;
-    display: inline-block;
-    padding: 12px;
+    alignment: center;
+    max-width: 50;
 }
 
-.arrow-prev{
-    left: -30px;
-    position: absolute;
-    top: 50%;
-    transform: translateY(-50%) rotate(135deg);
-}
-
-.arrow-next{
-    right: -30px;
-    position: absolute;
-    top: 50%;
-    transform: translateY(-50%) rotate(-45deg);
-}
-.light {
-    color: wheat;
-}
-
-@media (max-width: 300px) {
-    .arrow, .light .arrow {
-        background-size: 10px;
-        background-position: 10px 50%;
-    }
-}
-[id^="item"] {
+/* Hide the images by default */
+.mySlides {
     display: none;
 }
 
-.item-1 {
-    z-index: 2;
+/* Add a pointer when hovering over the thumbnail images */
+.cursor {
+    cursor: pointer;
+}
+
+/* Next & previous buttons */
+.prev,
+.next {
+    cursor: pointer;
+    position: absolute;
+    top: 40%;
+    width: auto;
+    padding: 16px;
+    margin-top: -50px;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+    -webkit-user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+    right: 25%;
+    border-radius: 3px 0 0 3px;
+}
+
+/* Position the "next button" to the right */
+.prev {
+    left: 25%;
+    border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover,
+.next:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+    color: #333333;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+}
+
+/* Container for image text */
+.caption-container {
+    text-align: center;
+    background-color: #F9F9F9;
+    padding: 2px 16px;
+    color: #333333;
+    width: 50%;
+    margin: auto;
+}
+
+.rowc{
+    max-width: 50%;
+    margin: auto;
+}
+
+.rowc:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* Six columns side by side */
+.columnc {
+    float: left;
+    width: 11.11%;
+    object-fit: fill;
+}
+
+/* Add a transparency effect for thumnbail images */
+.demo {
+    opacity: 0.6;
+}
+
+.active,
+.demo:hover {
     opacity: 1;
-    background: url('https://github.io/marcelhoogkamer/therapets/img/dog-caro.jpg');
-    background-size: cover;
-    max-width: 100%;
-    height: auto;
-}
-.item-2 {
-    background: url('https://github.io/marcelhoogkamer/therapets/img/dog-yumi.jpg');
-    background-size: cover;
-    max-width: 100%;
-    height: auto;
-}
-.item-3 {
-    background: url('https://github.io/marcelhoogkamer/therapets/img/dog-buggy.jpg');
-    background-size: cover;
-    max-width: 100%;
-    height: auto;
-}
-
-.item-4 {
-    background: url('https://github.io/marcelhoogkamer/therapets/img/cat-baron.jpg');
-    background-size: cover;
-    max-width: 100%;
-    height: auto;
-}
-.item-5 {
-    background: url('https://github.io/marcelhoogkamer/therapets/img/cat-kyra.jpg');
-    background-size: cover;
-    max-width: 100%;
-    height: auto;
-}
-
-.item-6{
-    background: url('https://github.io/marcelhoogkamer/therapets/img/bunny-otis.jpg');
-    background-size: cover;
-    max-width: 100%;
-    height: auto;
-}
-
-.item-7 {
-    background: url('https://github.io/marcelhoogkamer/therapets/img/hamster-cubic.jpg');
-    background-size: cover;
-    max-width: 100%;
-    height: auto;
-}
-
-.item-8 {
-    background: url('https://github.io/marcelhoogkamer/therapets/img/love-birds.jpg');
-    background-size: cover;
-    max-width: 100%;
-    height: auto;
-}
-
-.item-9{
-    background: url('https://github.io/marcelhoogkamer/therapets/img/horse-mamia.JPG');
-    background-size: cover;
-    max-width: 100%;
-    height: auto;
-}
-
-*:target ~ .item-1 {
-    opacity: 0;
-}
-
-#item-1:target ~ .item-1 {
-    opacity: 1;
-}
-
-#item-2:target ~ .item-2, #item-3:target ~ .item-3, #item-4:target ~ .item-4, #item-5:target ~ .item-5, #item-6:target ~ .item-6, #item-7:target ~ .item-7, #item-8:target ~ .item-8, #item-9:target ~ .item-9 {
-    z-index: 9;
-    opacity: 1;
-}
-
-.nm {
-    background-color: rgba(45, 103, 46, 1);
-    color: rgba(246, 232, 194, 1);
-    max-width: 100%;
-    width: 100%;
 }
 
 .tt {
