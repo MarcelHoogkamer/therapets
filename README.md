@@ -4,8 +4,11 @@
 
 
 >*[https://github.com/mharin][Michaela Harinova]  
-*[https://github.com/MarcelHoogkamer][Marcel Hoogkamer] 
-*[https://github.com/Nattaya-TR][Nattaya Trouillard]      
+
+*[https://github.com/MarcelHoogkamer][Marcel Hoogkamer]   
+
+*[https://github.com/Nattaya-TR][Nattaya Trouillard] 
+
 *[https://github.com/viktor-podevyn][Viktor Podevyn]  
 
 #### It is a consolidation challenge project to improve our CSS and HTML knowledge and group co-working.
