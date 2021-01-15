@@ -17,7 +17,7 @@ $phone:480px;
     font-size: 16px;
     text-align: center;
     width: 100%;
-    background: url("../img/bg.jpg"), lightgray;
+    background: url("../img/bg.jpg");
     background-size: cover;
     background-attachment: fixed;
     color: #333;
