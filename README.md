@@ -4,8 +4,8 @@
 
 ### A website project created by four students of BeCode as a group project.
 
-
->*[https://github.com/mharin][Michaela Harinova]
+>
+*[https://github.com/mharin][Michaela Harinova]
 *[https://github.com/MarcelHoogkamer][Marcel Hoogkamer]
 *[https://github.com/Nattaya-TR][Nattaya Trouillard]    
 *[https://github.com/viktor-podevyn][Viktor Podevyn]
