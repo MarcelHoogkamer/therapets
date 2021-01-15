@@ -6,9 +6,9 @@
 
 >
 [Michaela Harinova](https://github.com/mharin)  
-(https://github.com/MarcelHoogkamer) [Marcel Hoogkamer]   
-(https://github.com/Nattaya-TR) [Nattaya Trouillard] 
-(https://github.com/viktor-podevyn) [Viktor Podevyn]  
+[Marcel Hoogkamer](https://github.com/MarcelHoogkamer)
+[Nattaya Trouillard](https://github.com/Nattaya-TR) 
+[Viktor Podevyn](https://github.com/viktor-podevyn) 
 
 #### It is a consolidation challenge project to improve our CSS and HTML knowledge and group co-working.
 > The goal is to create a fictive company, create the company website and deploy her via Github page.\
