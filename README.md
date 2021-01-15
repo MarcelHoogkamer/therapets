@@ -1,5 +1,7 @@
 # Therapets
+
 ![Image of animals](img/all-pets.jpeg)
+
 ### A website project created by four students of BeCode as a group project.
 
 >
