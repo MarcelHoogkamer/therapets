@@ -20,3 +20,9 @@ Github is used by BeCode as a tool for educational purposes.
 
 [Nattaya Trouillard]: https://github.com/Nattaya-TR
 
+![Screenshot HOME page](img/INDEX.png)
+![Screenshot ABOUT page](img/ABOUT.png)
+![Screenshot CONTACT page](img/CONTACT.png)
+![Screenshot FAQ page](img/FAQ.png)
+![Screenshot SERVICE page](img/SERVICE.png)
+
